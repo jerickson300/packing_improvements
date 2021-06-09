@@ -310,7 +310,7 @@ document.addEventListener("keydown", function (e) {
     }
   }
   if (items.length > 0 && e.target.value && e.keyCode == 13) {
-    console.log('MAPPING: ', aliases);
+    console.log('PG: ', aliases);
    console.log(barcodeCheck);
     for (item of items) {
       if (e.target.value != item.innerHTML.toUpperCase()) {
