@@ -1,4 +1,4 @@
-export const skuMappings = [
+const skuMappings = [
   {
     oldSku: "LOCOM5 US",
     newSku: "LOCOM5(US)",
