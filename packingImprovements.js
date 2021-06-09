@@ -280,8 +280,9 @@ const aliases = skuMappings;
 //     newSku: "AFI-P-HD-US",
 //   },
 // ];
+document.addEventListener("keydown", function (e) { 
  console.log(barcodeCheck);
-document.addEventListener("keydown", function (e) {
+
   let items = document.getElementsByClassName("view-item-name");
   if (items.length > 0 && e.target.value && e.key == "Enter") {
     if (e.target.value.includes("SCREEN_SCAN")) {
