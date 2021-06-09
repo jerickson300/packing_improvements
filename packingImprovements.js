@@ -2,7 +2,6 @@
 Author: Jake Grether
 Date: 04/11/2020
 */
-import {skuMappings} from './SKUmappings.js';
 let str = "";
 let barcodeFlag = true;
 const barcodeCheck = [
