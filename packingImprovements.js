@@ -281,7 +281,7 @@ const aliases = skuMappings;
 //   },
 // ];
 document.addEventListener("keydown", function (e) { 
- console.log(barcodeCheck);
+ 
 
   let items = document.getElementsByClassName("view-item-name");
   if (items.length > 0 && e.target.value && e.key == "Enter") {
@@ -311,6 +311,7 @@ document.addEventListener("keydown", function (e) {
   }
   if (items.length > 0 && e.target.value && e.keyCode == 13) {
     console.log(aliases);
+   console.log(barcodeCheck);
     for (item of items) {
       if (e.target.value != item.innerHTML.toUpperCase()) {
         for (alias of aliases) {
