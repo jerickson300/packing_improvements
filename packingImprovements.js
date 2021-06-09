@@ -308,6 +308,7 @@ document.addEventListener("keydown", function (e) {
     }
   }
   if (items.length > 0 && e.target.value && e.keyCode == 13) {
+    console.log(aliases);
     for (item of items) {
       if (e.target.value != item.innerHTML.toUpperCase()) {
         for (alias of aliases) {
