@@ -4,7 +4,7 @@ Date: 04/11/2020
 */
 let str = "";
 let barcodeFlag = true;
-const barcodeCheck = screenBarcodes;
+const barcodeCheck = generatedBarcodes;
 //       [
 //   "NANOHD-RETROFIT-3",
 //   "UVC-G3-F-PENDANT",
