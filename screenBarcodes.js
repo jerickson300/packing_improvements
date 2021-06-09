@@ -25,5 +25,6 @@
   "AF-11FX-DUP-L",
   "AF-11FX-H",
   "AF-11FX-L",
-  "UAP-NANOHD-US"
+  "UAP-NANOHD-US",
+  "USG"
 ];
