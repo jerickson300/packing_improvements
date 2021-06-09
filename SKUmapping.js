@@ -243,4 +243,8 @@ const skuMappings = [
     oldSku: "AFI-P-HD",
     newSku: "AFI-P-HD-US",
   },
+  {
+    oldSku: "UVP-TOUCH",
+    newSku: "UVP TOUCH",
+  }
 ]
