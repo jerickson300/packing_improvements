@@ -284,6 +284,7 @@ const aliases = skuMappings;
 document.addEventListener("keydown", function (e) {
   let items = document.getElementsByClassName("view-item-name");
   if (items.length > 0 && e.target.value && e.key == "Enter") {
+    console.log(barcodeCheck);
     if (e.target.value.includes("SCREEN_SCAN")) {
       for (item of items) {
         if (barcodeCheck.includes(item.innerHTML.toUpperCase())) {
