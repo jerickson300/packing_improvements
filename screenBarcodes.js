@@ -1,4 +1,4 @@
- const screenBarcodes = [
+ const generatedBarcodes = [
   "NANOHD-RETROFIT-3",
   "UVC-G3-F-PENDANT",
   "UF-RJ45-1G",
@@ -25,4 +25,5 @@
   "AF-11FX-DUP-L",
   "AF-11FX-H",
   "AF-11FX-L",
+  "UAP-NANOHD-US"
 ];
