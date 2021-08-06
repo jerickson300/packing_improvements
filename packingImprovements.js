@@ -155,24 +155,24 @@ document.addEventListener("keydown", function(e) {
         }
     }
     //Scanning Multiple MAC Addresses
-    if (
-        e.target.id == "scannedMACAddress" &&
-        (e.keyCode == 13 || e.keyCode == 17 || e.keyCode == 74)
-    ) {
-        if (e.target.value && e.target.value.toUpperCase().includes("MAC_END")) {
-            let tempStr = e.target.value;
-            e.target.value = tempStr.replace(",MAC_END", "");
-            return true;
-        } else {
-            e.target.value += ",";
-            e.preventDefault();
-            return false;
-        }
-    }
-    if (e.target.value && e.target.value.includes("MAC_END") && e.keyCode == 13) {
-        e.preventDefault();
-        return false
-    }
+//     if (
+//         e.target.id == "scannedMACAddress" &&
+//         (e.keyCode == 13 || e.keyCode == 17 || e.keyCode == 74)
+//     ) {
+//         if (e.target.value && e.target.value.toUpperCase().includes("MAC_END")) {
+//             let tempStr = e.target.value;
+//             e.target.value = tempStr.replace(",MAC_END", "");
+//             return true;
+//         } else {
+//             e.target.value += ",";
+//             e.preventDefault();
+//             return false;
+//         }
+//     }
+//     if (e.target.value && e.target.value.includes("MAC_END") && e.keyCode == 13) {
+//         e.preventDefault();
+//         return false
+//     }
 
     //Scan barcode to get weight
     if (
